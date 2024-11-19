@@ -228,7 +228,7 @@ class Results(SimpleClass):
     """
 
     def __init__(
-        self, orig_img, path, names, boxes=None, masks=None, probs=None, keypoints=None, obb=None, speed=None
+        self, orig_img, names, path=None, boxes=None, masks=None, probs=None, keypoints=None, obb=None, speed=None
     ) -> None:
         """
         Initialize the Results class for storing and manipulating inference results.
